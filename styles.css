@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+header .container-fluid .navbar-brand img {
+  width: 4rem;
+}
+
+main .main__cardsNews .card {
+  margin: 0 auto;
+}
+main .main__cardsNews .card .row, main .main__cardsNews .card img {
+  cursor: pointer;
+}
+main .main__cardsNews .card .card-body {
+  cursor: pointer;
+}
+main .main__cardsNews h1 {
+  text-align: start;
+  padding: 1rem;
+}
+main .main__cardsNews .lastPhones {
+  margin-top: 4rem;
+}
+main .main__cardsNews .mb-3 {
+  margin-top: 3rem;
+  margin-bottom: 12rem;
+}
+main .main__cardsNews .mb-3 img {
+  height: 100%;
+}
+main .lastPhones {
+  max-width: 40rem;
+}
+main .secondaryCarouselNews {
+  box-sizing: border-box;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+main .secondaryCarouselNews .carousel {
+  max-width: 44rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #121212;
+  margin: 0 auto;
+}
+footer .foooterCard {
+  background-color: #121212;
+  color: #fff;
+}
+footer .foooterCard .footerCard-title {
+  background-color: rgba(31, 31, 31, 0.1215686275);
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+footer .foooterCard .footerCard-title img {
+  width: 4rem;
+}
+footer .foooterCard div, footer .foooterCard h5 {
+  display: flex;
+  justify-content: center;
+}
+footer .foooterCard .card-body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+footer .foooterCard .card-body .body-tecnology {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1.5rem;
+}
+footer .foooterCard .card-body .body-tecnology a {
+  text-decoration: none;
+  color: #9f9f9f;
+}
+footer .foooterCard .card-body .body-tecnology a:hover {
+  color: #e2e3e5;
+  text-decoration: underline;
+}
+footer .foooterCard .card-body .body-tecnology p {
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding-top: 1.5rem;
+}
+footer .foooterCard .secondary-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  flex-wrap: wrap;
+}
+footer .foooterCard .secondary-card-body a {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #9f9f9f;
+}
+footer .foooterCard .secondary-card-body a:hover {
+  color: #e2e3e5;
+  text-decoration: underline;
+}
+footer .foooterCard .secondary-card-body p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}/*# sourceMappingURL=styles.css.map */
